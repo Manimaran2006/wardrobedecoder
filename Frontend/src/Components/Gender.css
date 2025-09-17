@@ -1,0 +1,39 @@
+.gender-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.gender-page h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.gender-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gender-buttons button {
+  background: #efc0aa;
+  border: none;
+  color: white;
+  padding: 30px 50px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gender-buttons button:hover {
+  background: #ffffff;
+  color: #333;
+}

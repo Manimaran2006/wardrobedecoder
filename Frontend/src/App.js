@@ -7,8 +7,7 @@ import Gender from "./Components/Gender"
 const App = () => {
   return (
     <>
-    <Gender/>
-    <Gender/>
+      <Rou/>
     </>
   );
 };

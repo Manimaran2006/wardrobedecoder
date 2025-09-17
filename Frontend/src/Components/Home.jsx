@@ -13,7 +13,7 @@ const Home = () => {
       <div className="home">
         <h1>Welcome to Wardrobe Decoder</h1>
         <p>Find the perfect outfit for any occasion!</p>
-        <button className="start-button" onClick={() => navigate("/warder")}>
+        <button className="start-button" onClick={() => navigate("/Gender")}>
           Start Now
         </button>
       </div>
